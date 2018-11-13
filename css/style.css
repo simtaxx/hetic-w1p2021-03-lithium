@@ -16,7 +16,7 @@ body{
 }
   
 
-header {
+.headerindex {
   display: flex;
   width: 100%;
   height: 100vh;
@@ -78,7 +78,7 @@ h2 {
 }
 /* Footer */ 
 
-footer {
+.footerindex {
   background-image: url("../images/Homepage Ollivander/Frost.jpg");  
   width: 100%;
   height: 100vh;
@@ -124,8 +124,10 @@ footer {
   margin-top: 30px;
 }
 .FAQ {
-  border-bottom:  1px solid white;
-  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-family: Roboto;
+  margin-top: 30px;
 }
 .F.A.Q{
   width: 20px;
