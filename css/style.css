@@ -95,6 +95,9 @@ h2 {
 .baguette1a {
   width: 324px;
 }
+.particle {
+  line-height: 40px;
+}
 /* body fin */
 
 
@@ -170,6 +173,22 @@ h2 {
 width: 20px;
 margin-bottom: 50px;
 }
-.iconesbis{
-  
+/* footer article 1 */ 
+.iconesbis {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+.footerarticle1 {
+  background-image: url("../images/Homepage Ollivander/Frost.jpg");  
+}
+
+.twitterbis {
+  width: 50px;
+}
+.facebookbis {
+  width: 50px;
+}
+.instagrambis {
+  width: 50px;
 }
