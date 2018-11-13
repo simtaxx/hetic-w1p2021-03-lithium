@@ -42,8 +42,6 @@ h1 {
 .scrollbuton {
   position: absolute;
   bottom: 1;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
 }
 .imgbuton {
   width: 50px;
@@ -69,20 +67,19 @@ footer {
   width: 100%;
   height: 100vh;
 }
-footer h2 {
+.Une{
  font-family: Roboto;
  font-size: 18px;
  color: white;
  text-align: center;
  padding: 40px;
 }
-.fantastique {
+.fantastic {
   width: 320px;
 }
 .article1 {
   color: white;
   font-size: 20px;
-  margin-bottom: 70px;
 }
 .netflix {
   width: 320px;
@@ -90,12 +87,10 @@ footer h2 {
 .article2 { 
   color: white;
   font-size: 20px;
-  margin-bottom: 70px;
 }
 .icones {
   display: flex;
   justify-content: center; 
-  border-top: 1px solid white;
 }
 .twitter {
   width: 20px;
@@ -105,4 +100,19 @@ footer h2 {
 }
 .instagram {
   width: 20px;
+}
+.follow{
+  text-align: center;
+  color: white;
+  font-family: Roboto;
+}
+.FAQ {
+  border-bottom:  1px solid white;
+  font-size: 20px;
+}
+.F.A.Q{
+  width: 20px;
+}
+.line1{
+  width: 60px;
 }
