@@ -2,7 +2,7 @@
 
 Semaine intensive intégration
 
-Les menmbres de notre équipe:
+Les membres de notre équipe:
   
   Louerad Mounir
   Painot Baptiste
@@ -11,5 +11,5 @@ Les menmbres de notre équipe:
   Souici Haris
                                                               
 
-Site netlify : 
+Site netlify : https://ollivander.netlify.com/
 
