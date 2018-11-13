@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body{
+  scroll-behavior: smooth;
   font-family: Roboto, Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
 }
@@ -41,13 +42,15 @@ h1 {
 .scrollbuton {
   position: absolute;
   bottom: 1;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 .imgbuton {
   width: 50px;
   transition: width 0.5s;
 }
 .imgbuton:hover {
-  width: 300px;
+  width: 55px;
 }
 .baguette1 {
   width: 320px;
