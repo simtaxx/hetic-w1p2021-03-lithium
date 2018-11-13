@@ -76,6 +76,14 @@ h2 {
   text-decoration: none;
   color: #0074C8;
 }
+.homebuton {
+  height: 20px;
+}
+.article1bis {
+  font-family: Lancelot;
+  color: black;
+  font-size: 20px;
+}
 /* Footer */ 
 
 .footerindex {
@@ -129,12 +137,16 @@ h2 {
   font-family: Roboto;
   margin-top: 30px;
 }
-.F.A.Q{
-  width: 20px;
-}
-.line1{
+.line1 {
   width: 60px;
 }
-.line2{
+.line2 {
   width: 60px;
+}
+.icon2{
+  display: flex;
+  justify-content: center;
+}
+.hat{
+width: 20px;
 }
