@@ -16,19 +16,21 @@ body{
   
 
 header {
+  display: flex;
   width: 100%;
   height: 100vh;
   background-image: url("../images/Homepage Ollivander/Background_mobile.png");
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 100vw;
-}
-header {
-  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 h1 {
   font-family: Lancelot;
   padding: 2px;
+  color: white;
+  font-size: 24px;
 }
 .title {
   background-color: #FBCB04;
