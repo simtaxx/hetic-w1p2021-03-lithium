@@ -36,6 +36,17 @@ h1 {
   padding: 2px;
   width: 78px;
 }
+.baguette1 {
+  width: 320px;
+}
+.baguette2 {
+  width: 320px;
+}
+.baguette3 {
+  width: 320px;
+}
+
+
 
 
 footer {
@@ -44,7 +55,7 @@ footer {
 }
 
 footer h2 {
-    font-family: Roboto ;
+    font-family: Roboto;
 }
 .fantastique {
   width: 320px;
