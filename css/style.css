@@ -44,6 +44,10 @@ h1 {
 }
 .imgbuton {
   width: 50px;
+  transition: width 0.5s;
+}
+.imgbuton:hover {
+  width: 300px;
 }
 .baguette1 {
   width: 320px;
@@ -59,6 +63,8 @@ h1 {
 
 footer {
   background-image: url("../images/Homepage Ollivander/Frost.jpg");  
+  width: 100%;
+  height: 100vh;
 }
 footer h2 {
  font-family: Roboto;
@@ -69,16 +75,19 @@ footer h2 {
 }
 .fantastique {
   width: 320px;
-  padding: 30px;
-
+}
+.article1 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 70px;
 }
 .netflix {
   width: 320px;
-  padding: 30px;
 }
-.descriptionnetflix { 
+.article2 { 
   color: white;
   font-size: 20px;
+  margin-bottom: 70px;
 }
 .icones {
   display: flex;
