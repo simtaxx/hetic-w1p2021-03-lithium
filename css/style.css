@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Lancelot');
+
+* { 
+    box-sizing: border-box;
+}
+
+
+header {
+  display: flex;
+}
+h1 {
+  font-family: Lancelot;
+  padding: 2px;
+}
+.title {
+  background-color: #FBCB04;
+  font-family: Lancelot;
+  padding: 2px;
+  width: 68px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: rgb(0, 0, 136);
+    background-image: 
+}
+
+footer h2 {
+    font-family: Roboto ;
+}
