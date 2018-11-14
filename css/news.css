@@ -8,7 +8,7 @@ box-sizing: border-box;
 h1{
   font-family: Lancelot;
   text-transform: uppercase;
-  margin-top: 10px;
+  margin-top: 20px;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -55,10 +55,10 @@ width: 280px;
 }
 .home-buton {
   margin-left: 21px;
-  margin-top: 21px;
 }
 
 .img-home {
   width: 21px;
-  margin-top: 21px; 
+  margin-top: 15px;
+  border-radius: 30%;
 }
