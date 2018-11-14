@@ -5,7 +5,6 @@
 
 @keyframes up-and-down{
   from{
-
     transform: translateY(-10px);
   }
   to{
@@ -74,20 +73,37 @@ img {
 }
 
 img:hover {
-  transform: scale(1.05);
+  transform: scale(1.2);
 }
 
-/* body */ 
+/* body */
+.h2{
+  text-align: center;
+  font-family: montserrat;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+} 
+
+
+.container{
+  display : block;
+}
+
 p {
   margin-left: 20px;
-  margin-right:20px;
+  margin-right: 20px;
 }
-.item{
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
 
+
+.item{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
 }
+
 .item p {
   text-align: center;
   font-family: Lancelot;
@@ -102,21 +118,22 @@ h2 {
   margin-left:20px;
 }
 
-.bag {
+.wand-name {
   font-size: 24px;
   margin-top: 20px;
 }
 
-.baguette {
-  justify-content: center;
+.wand {
+  text-align: center;
   width: 250px;
   height: 170px;
 }
 
 .bag-plus {
-  margin-left: 98px;
+  
   text-decoration: none;
   color: #0074C8;
+  text-align: center;
 }
 
 .imghome {
@@ -251,3 +268,6 @@ h2 {
   font-family: Libre Baskerville;
   font-size: 14px;
 }
+
+
+
