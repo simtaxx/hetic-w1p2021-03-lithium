@@ -40,6 +40,7 @@ summary::-webkit-details-marker {
   text-align: center;
   margin-top: 40px;
   font-size: 22px;
+  font-family: Lancelot;
 }
 .article-1-bis {
   font-family: Lancelot;
@@ -103,4 +104,29 @@ summary::-webkit-details-marker {
 
 .instagram-bis {
   width: 40px;
+}
+
+
+@media (min-width: 768px) {
+  .home-buton {
+    position: absolute;
+    left: 40px;
+    top: 0px;
+  }
+  .img-home {
+    width: 50px;
+    height: 43.28px;
+    margin-top: 21px; 
+  }
+  .article-x {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .title-article {
+    margin: 0 auto;
+  }
+  .baguette-1-a {
+    width: 550px;
+  }
 }
