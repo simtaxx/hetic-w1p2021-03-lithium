@@ -6,11 +6,21 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+}
+.home-buton {
+  margin-left: 21px;
+  margin-top: 21px;
+}
+.img-home {
+  width: 21px;
 }
 summary {
   padding: 10px;
   margin-left: 80px;
+}
+.title-article {
+  text-align: center;
+  margin-top: 40px;
 }
 .article-1-bis {
   font-family: Lancelot;
@@ -21,6 +31,7 @@ summary {
 .contents-article {
   font-size: 16px;
   font-family: Montserrat,Arial, Helvetica, sans-serif;
+  padding: 10px;
 }
 .details {
   font-family: Lancelot;
@@ -42,7 +53,7 @@ summary {
   background-color: grey;
   background-image: url("../images/Homepage Ollivander/fumee-png-3.png");
   width: 100%;
-  min-height: auto;
+  min-height: 5vh;
 }
 
 .icones-bis {

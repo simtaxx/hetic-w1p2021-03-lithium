@@ -9,18 +9,20 @@
   }
 
   to{
-    transform: translateY(10px;);
+    transform: translateY(10px);
   }
 }
+* { 
+    box-sizing: border-box;
+}
+
 body{
   scroll-behavior: smooth;
   font-family: Roboto, Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
 }
 
-* { 
-    box-sizing: border-box;
-}
+
 
 /*header */ 
 .headerindex {
@@ -68,6 +70,13 @@ h1 {
 }
 /* header fin */ 
 
+img{
+  transition: transform 2s;
+}
+
+img:hover{
+  transform: scale(1.1);
+}
 
 /* body */ 
 p {
@@ -155,12 +164,12 @@ h2 {
 }
 
 .fantastic {
-  height: 150px;
+  height: 120px;
   box-shadow: -10px 12px black;
 }
 
 .netflix {
-  height: 150px;
+  height: 120px;
   box-shadow: -10px 12px black;
 }
 
