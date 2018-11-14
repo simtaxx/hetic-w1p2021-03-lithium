@@ -1,28 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Lancelot');
+
 *{
-  box-sizing: border-box;
+box-sizing: border-box;
 }
-.animals{
-  width: 140px;
+h1{
+  font-family: Lancelot;
+  text-transform: uppercase;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.animals {
+display: flex;
+margin-left: 20px;
+margin-right: 20px;
+width: 280px;
 }
 .footer-article-1 {
-    background-color:#231322;
-    width: 100%;
-    min-height: 5vh;
+background-color:#231322;
+width: 100%;
+min-height: 9vh;
+width: 100vw;
 }
   
-  .icones-bis {
-  display: flex;
-  justify-content: space-around;
+.icones-bis {
+display: flex;
+justify-content: space-around;
 }
   
-  .twitter-bis {
-  width: 40px;
+.twitter-bis {
+width: 40px;
 }
   
-  .facebook-bis {
-   width: 40px;
+.facebook-bis {
+width: 40px;
 }
-  
-  .instagram-bis {
-  width: 40px;
+.instagram-bis {
+width: 40px;
 }
