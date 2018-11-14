@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Lancelot');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+summary {
+  padding: 10px;
+  margin-left: 80px;
+}
+.article-1-bis {
+  font-family: Lancelot;
+}
+.baguette-1-a {
+  width: 320px;
+}
+.contents-article {
+  font-size: 16px;
+  font-family: Montserrat,Arial, Helvetica, sans-serif;
+}
+.details {
+  font-family: Lancelot;
+  font-size: 20px;
+}
+.text-details {
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+/* footer wand1 */ 
+
+.footer-article-1 {
+  background-color: grey;
+  background-image: url("../images/Homepage Ollivander/fumee-png-3.png");
+  width: 100%;
+  min-height: auto;
+}
+
+.icones-bis {
+  display: flex;
+  justify-content: space-around;
+}
+
+.twitter-bis {
+  width: 20px;
+}
+
+.facebook-bis {
+  width: 20px;
+}
+
+.instagram-bis {
+  width: 20px;
+}
