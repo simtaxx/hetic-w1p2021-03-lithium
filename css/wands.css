@@ -118,10 +118,12 @@ summary::-webkit-details-marker {
     height: 43.28px;
     margin-top: 21px; 
   }
-  .article-x {
+  .article-1-bis {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+  }
+  .contents-article {
+    
   }
   .title-article {
     margin: 0 auto;
