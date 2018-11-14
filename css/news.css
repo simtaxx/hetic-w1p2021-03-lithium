@@ -96,6 +96,14 @@ background-color: rgb(255, 224, 87);
   display: flex;
   flex-direction: row;
 }
+.third {
+  display: flex;
+  flex-direction: row; 
+}
+.fourth {
+  display: flex;
+  flex-direction: row; 
+}
 .animals {
   height: 150px;
   width: 300px;
