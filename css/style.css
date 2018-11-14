@@ -49,7 +49,10 @@ h1 {
 
 
 /* body */ 
-
+p {
+  margin-left: 20px;
+  margin-right:20px;
+}
 .item p {
   text-align: center;
   font-family: Lancelot;
@@ -108,7 +111,7 @@ h2 {
 .footerindex {
   background-image: url("../images/Homepage Ollivander/Frost.jpg");  
   width: 100%;
-  height: 120%;
+  height: 100vh;
 }
 
 .Une{
@@ -165,7 +168,7 @@ h2 {
 .line2 {
   width: 60px;
 }
-.icon2{
+.icon2 {
   display: flex;
   justify-content: center;
 }
@@ -173,16 +176,23 @@ h2 {
 width: 20px;
 margin-bottom: 50px;
 }
+
+
 /* footer article 1 */ 
+
+.footerarticle1 {
+  background-image: url("../images/Homepage\ Ollivander/Frost.jpg");
+  width: 100%;
+  height: 100vh;
+}
 .iconesbis {
   display: flex;
   justify-content: space-between;
-
-  background-image: url("../images/Homepage\ Ollivander/Frost.jpg");
+  background-color: black;
+  margin-bottom: 100px;
 }
 .twitterbis {
   width: 50px;
-  background-color: black;
 }
 .facebookbis {
   width: 50px;
