@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+}
+.animals{
+  width: 140px;
+}
+.footer-article-1 {
+    background-color:#231322;
+    width: 100%;
+    min-height: 5vh;
+}
+  
+  .icones-bis {
+  display: flex;
+  justify-content: space-around;
+}
+  
+  .twitter-bis {
+  width: 40px;
+}
+  
+  .facebook-bis {
+   width: 40px;
+}
+  
+  .instagram-bis {
+  width: 40px;
+}
