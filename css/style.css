@@ -69,7 +69,7 @@ h1 {
 /* header fin */ 
 
 img {
-  transition: transform 2s;
+  transition: transform 1s;
 }
 
 img:hover {
@@ -153,6 +153,7 @@ h2 {
   background-color:#231322;
   width: 100%;
   min-height: 100vh;
+  display: block;
 }
 
 .Une {
@@ -166,34 +167,30 @@ h2 {
 }
 
 .photofooter {
-  display: flex;
-  flex-direction: column; 
+  display:block;
   margin: 30px;
+  align-items: center;
 }
 
 .fantastic {
   height: 140px;
-  box-shadow: -10px 12px black;
+  
 }
 
 .netflix {
   height: 140px;
-  box-shadow: -10px 12px black;
+  
 }
 
-.article1 {
+.article {
   color: white;
-  font-size: 20px;
-  font-family: Libre Baskerville;
-  margin-top: 20px;
+  font-size: 14px;
+  font-family: Montserrat;
+  letter-spacing: 3px;
+  margin-top: 25px
 }
 
-.article2 { 
-  color: white;
-  font-size: 20px;
-  font-family: Libre Baskerville;
-  margin-top: 20px;
-}
+
 
 .icones {
   display: flex;
@@ -269,5 +266,26 @@ h2 {
   font-size: 14px;
 }
 
+/* mediaquery home page */
+
+@media (min-width:768px){
+  
+
+  .container{
+    display:flex;
+    justify-content: space-around;
+  }
+
+  .container-article{
+    display:flex;
+    justify-content:space-around;
+  }
+  .une{
+    font-size:
+  }
+  
+
+
+}
 
 
