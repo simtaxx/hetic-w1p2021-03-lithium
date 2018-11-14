@@ -167,18 +167,18 @@ h2 {
   padding: 40px;
 }
 
-.photofooter {
-  display:block;
-  margin: 30px;
-  align-items: center;
-}
 
-.cover {
+
+.cover-article {
   height: 140px;
   width: 260px;
   
 }
 
+.photofooter{
+  margin: 20px 5% 0 5%;
+  text-align: center;
+}
 .article {
   color: white;
   font-size: 14px;
@@ -186,8 +186,6 @@ h2 {
   letter-spacing: 3px;
   margin-top: 25px
 }
-
-
 
 .icones {
   display: flex;
@@ -292,7 +290,7 @@ h2 {
     transform: scale(1.1);
   }
 
-  .cover {
+  .cover-article {
     width: 640px;
     height: 381px;
   }
