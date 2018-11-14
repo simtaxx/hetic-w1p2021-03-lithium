@@ -129,6 +129,7 @@ h2 {
 .article1 {
   color: white;
   font-size: 20px;
+  font-family: Libre Baskerville;
 }
 .netflix {
   width: 320px;
@@ -136,6 +137,7 @@ h2 {
 .article2 { 
   color: white;
   font-size: 20px;
+  font-family: Libre Baskerville;
 }
 .icones {
   display: flex;
