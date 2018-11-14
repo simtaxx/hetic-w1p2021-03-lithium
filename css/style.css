@@ -68,13 +68,7 @@ h1 {
 }
 /* header fin */ 
 
-img {
-  transition: transform 1s;
-}
 
-img:hover {
-  transform: scale(1.2);
-}
 
 /* body */
 
@@ -175,11 +169,13 @@ h2 {
 
 .fantastic {
   height: 140px;
+  width: 260px;
   
 }
 
 .netflix {
   height: 140px;
+  width: 260px;
   
 }
 
@@ -271,7 +267,11 @@ h2 {
 
 @media (min-width:768px){
   
-
+  header {
+    background-image: url("../images\Homepage Ollivander\Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   .container{
     display:flex;
     justify-content: space-around;
@@ -284,9 +284,21 @@ h2 {
   .une{
     font-size: 30px;
   }
+  img {
+    transition: transform 1s;
+  }
   
+  img:hover {
+    transform: scale(1.1);
+  }
+
+  .cover {
+    width: 640px;
+    height: 381px;
+  }
+
+  .
 
 
-}
 
 
