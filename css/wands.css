@@ -21,11 +21,20 @@ summary {
   padding: 10px;
   margin-left: 80px;
   outline: none;
+  position: relative;
+}
+summary::-webkit-details-marker {
+  opacity: 0;
 }
 .plus-icon {
   width: 15px;
   position: absolute;
-  right: 40px;
+  right: 55;
+}
+.glass-icon {
+  width: 22px;
+  position: absolute;
+  left: -10;
 }
 .title-article {
   text-align: center;
