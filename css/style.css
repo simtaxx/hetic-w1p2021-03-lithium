@@ -177,14 +177,12 @@ margin-bottom: 50px;
 .iconesbis {
   display: flex;
   justify-content: space-between;
-  background-color: black;
-}
-.footerarticle1 {
-  background-image: url("../images/Homepage Ollivander/Frost.jpg");  
-}
 
+  background-image: url("../images/Homepage\ Ollivander/Frost.jpg");
+}
 .twitterbis {
   width: 50px;
+  background-color: black;
 }
 .facebookbis {
   width: 50px;
