@@ -20,6 +20,12 @@ body {
 summary {
   padding: 10px;
   margin-left: 80px;
+  outline: none;
+}
+.plus-icon {
+  width: 15px;
+  position: absolute;
+  right: 40px;
 }
 .title-article {
   text-align: center;
@@ -51,6 +57,10 @@ summary {
   padding: 42px;
   letter-spacing: 3px;
   line-height: 20px;
+}
+.line-cara {
+  width: 236px;
+  color: #C4C4C4;
 }
 
 
