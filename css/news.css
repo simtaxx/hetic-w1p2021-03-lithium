@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lancelot');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 
 *{
 box-sizing: border-box;
@@ -8,13 +10,13 @@ h1{
   text-transform: uppercase;
   margin-top: 10px;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 .animals {
-display: flex;
 margin-left: 20px;
 margin-right: 20px;
 width: 280px;
+margin-bottom: 30px;
 }
 .footer-article-1 {
 background-color:#231322;
@@ -37,4 +39,26 @@ width: 40px;
 }
 .instagram-bis {
 width: 40px;
+}
+.text {
+  font-size: 14px;
+  font-family: Montserrat,Arial, Helvetica, sans-serif;
+  padding: 20px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-align: justify;
+}
+.images{
+margin-left: 20px;
+margin-right: 20px;
+width: 280px;
+}
+.home-buton {
+  margin-left: 21px;
+  margin-top: 21px;
+}
+
+.img-home {
+  width: 21px;
+  margin-top: 21px; 
 }
