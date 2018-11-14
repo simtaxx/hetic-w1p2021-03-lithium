@@ -7,6 +7,10 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+header{
+  
+  position:fixed;
+}
 .home-buton {
   margin-left: 21px;
   margin-top: 21px;

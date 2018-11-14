@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lancelot');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 
 @keyframes up-and-down{
@@ -155,8 +156,10 @@ h2 {
 }
 
 .Une {
- font-family: Libre Baskerville;
- font-size: 18px;
+ font-family: Montserrat;
+ text-transform: uppercase;
+ font-size: 20px;
+ font-weight: 700;
  color: white;
  text-align: center;
  padding: 40px;
