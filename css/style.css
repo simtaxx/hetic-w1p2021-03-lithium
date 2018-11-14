@@ -6,6 +6,7 @@ body{
   font-family: Roboto, Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
 }
+
 * { 
     box-sizing: border-box;
 }
@@ -22,26 +23,31 @@ body{
   justify-content: center;
   align-items: center;
 }
+
 h1 {
   font-family: Lancelot;
   padding: 2px;
   color: white;
   font-size: 24px;
 }
+
 .title {
   background-color: #FBCB04;
   font-family: Lancelot;
   padding: 2px;
   width: 78px;
 }
+
 .scrollbuton {
   position: absolute;
   bottom: 1;
 }
+
 .imgbuton {
   width: 50px;
   transition: width 0.5s;
 }
+
 .imgbuton:hover {
   width: 55px;
 }
@@ -53,10 +59,12 @@ p {
   margin-left: 20px;
   margin-right:20px;
 }
+
 .item p {
   text-align: center;
   font-family: Lancelot;
 }
+
 h2 {
   font-family: Lancelot;
   padding: 2px;
@@ -65,29 +73,40 @@ h2 {
   margin-top: 20px;
   margin-left:20px;
 }
+
 .bag {
   font-size: 24px;
   margin-top: 20px;
 }
+
 .baguette1 {
   width: 320px;
 }
+
 .baguette2 {
   width: 320px;
 }
+
 .baguette3 {
   width: 320px;
 }
+
 .bagplus {
   margin-left: 98px;
   text-decoration: none;
   color: #0074C8;
 }
+
 .imghome {
   height: 21px;
   margin-left: 21px;
   margin-top: 21px;
 }
+
+.articlex {
+  display: grid;
+}
+
 .article1bis {
   font-family: Lancelot;
   color: black;
@@ -95,9 +114,11 @@ h2 {
   margin-top: 100px;
   margin-left: 32px;
 }
+
 .baguette1a {
   width: 324px;
 }
+
 .particle {
   line-height: 40px;
 }
@@ -111,7 +132,7 @@ h2 {
 .footerindex {
   background-image: url("../images/Homepage Ollivander/Frost.jpg");  
   width: 100%;
-  height: 110%;
+  min-height: 100vh;
 }
 
 .Une {
@@ -122,8 +143,19 @@ h2 {
  padding: 40px;
 }
 
+.photofooter {
+  display: flex;
+  flex-direction: column; 
+}
+
 .fantastic {
-  width: 320px;
+  padding: 30px;
+  height: 200px;
+}
+
+.netflix {
+  padding: 30px;
+  height: 200px;
 }
 
 .article1 {
@@ -131,52 +163,60 @@ h2 {
   font-size: 20px;
   font-family: Libre Baskerville;
 }
-.netflix {
-  width: 320px;
-}
+
 .article2 { 
   color: white;
   font-size: 20px;
   font-family: Libre Baskerville;
 }
+
 .icones {
   display: flex;
   justify-content: center; 
 }
+
 .twitter {
   width: 20px;
 }
+
 .facebook {
   width: 20px;
 }
+
 .instagram {
   width: 20px;
 }
+
 .follow{
   text-align: center;
   color: white;
   font-family: Roboto;
   margin-top: 30px;
 }
+
 .FAQ {
   text-align: center;
   color: white;
   font-family: Roboto;
   margin-top: 30px;
 }
+
 .line1 {
   width: 60px;
 }
+
 .line2 {
   width: 60px;
 }
+
 .icon2 {
   display: flex;
   justify-content: center;
 }
+
 .hat{
-width: 20px;
-margin-bottom: 50px;
+  width: 20px;
+  margin-bottom: 50px;
 }
 
 
@@ -185,20 +225,24 @@ margin-bottom: 50px;
 .footerarticle1 {
   background-image: url("../images/Homepage\ Ollivander/Frost.jpg");
   width: 100%;
-  height: 25%;
+  min-height: 100vh;
 }
+
 .iconesbis {
   display: flex;
   justify-content: space-between;
   background-color: black;
   margin-bottom: 100px;
 }
+
 .twitterbis {
   width: 50px;
 }
+
 .facebookbis {
   width: 50px;
 }
+
 .instagrambis {
   width: 50px;
 }
