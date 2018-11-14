@@ -57,8 +57,7 @@ summary {
 /* footer wand1 */ 
 
 .footer-article-1 {
-  background-color: grey;
-  background-image: url("../images/Homepage Ollivander/fumee-png-3.png");
+  background-color:#231322;
   width: 100%;
   min-height: 5vh;
 }
@@ -69,13 +68,13 @@ summary {
 }
 
 .twitter-bis {
-  width: 20px;
+  width: 40px;
 }
 
 .facebook-bis {
-  width: 20px;
+  width: 40px;
 }
 
 .instagram-bis {
-  width: 20px;
+  width: 40px;
 }
