@@ -50,7 +50,7 @@ letter-spacing: 1px;
 line-height: 20px;
 text-align: justify;
 }
-.images{
+.images {
 margin-left: 20px;
 margin-right: 20px;
 width: 280px;
@@ -88,9 +88,20 @@ background-color: rgb(255, 224, 87);
   padding-right: 200px;
   padding-left: 200px;
 }
-.images, .animals {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.first {
+  display: flex;
+  flex-direction: row;
+}
+.second {
+  display: flex;
+  flex-direction: row;
+}
+.animals {
+  height: 150px;
+  width: 300px;
+}
+.images {
+  height: 150px;
+  width: 300px;
 }
 }
