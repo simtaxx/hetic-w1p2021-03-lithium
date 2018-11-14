@@ -12,6 +12,7 @@
     transform: translateY(10px);
   }
 }
+
 * { 
     box-sizing: border-box;
 }
@@ -75,8 +76,9 @@ img{
 }
 
 img:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
+
 
 /* body */ 
 p {
@@ -164,12 +166,12 @@ h2 {
 }
 
 .fantastic {
-  height: 120px;
+  height: 140px;
   box-shadow: -10px 12px black;
 }
 
 .netflix {
-  height: 120px;
+  height: 140px;
   box-shadow: -10px 12px black;
 }
 
