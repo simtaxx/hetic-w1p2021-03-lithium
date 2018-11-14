@@ -77,7 +77,8 @@ img:hover {
 }
 
 /* body */
-.h2{
+
+.h2-body{
   text-align: center;
   font-family: montserrat;
   font-weight: bold;
@@ -281,7 +282,7 @@ h2 {
     justify-content:space-around;
   }
   .une{
-    font-size:
+    font-size: 30px;
   }
   
 
