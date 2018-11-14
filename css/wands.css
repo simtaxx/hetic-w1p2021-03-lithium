@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
-  display: block;
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
@@ -25,7 +25,7 @@ summary {
 }
 summary::-webkit-details-marker {
   opacity: 0;
-}
+} 
 .plus-icon {
   width: 15px;
   position: absolute;
@@ -62,11 +62,12 @@ summary::-webkit-details-marker {
   font-size: 20px;
 }
 .text-details {
-  font-family: Montserrat,Arial, Helvetica, sans-serif;;
-  font-size: 16px;
-  padding: 42px;
-  letter-spacing: 3px;
+  font-size: 14px;
+  font-family: Montserrat,Arial, Helvetica, sans-serif;
+  padding: 45px;
+  letter-spacing: 1px;
   line-height: 20px;
+  text-align: justify;
 }
 .line-cara {
   width: 236px;

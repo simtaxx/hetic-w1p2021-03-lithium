@@ -6,11 +6,11 @@
 box-sizing: border-box;
 }
 h1{
-  font-family: Lancelot;
-  text-transform: uppercase;
-  margin-top: 10px;
-  text-align: center;
-  margin-bottom: 40px;
+font-family: Lancelot;
+text-transform: uppercase;
+margin-top: 20px;
+text-align: center;
+margin-bottom: 40px;
 }
 .animals {
 margin-left: 20px;
@@ -41,12 +41,12 @@ width: 40px;
 width: 40px;
 }
 .text {
-  font-size: 14px;
-  font-family: Montserrat,Arial, Helvetica, sans-serif;
-  padding: 20px;
-  letter-spacing: 1px;
-  line-height: 20px;
-  text-align: justify;
+font-size: 14px;
+font-family: Montserrat,Arial, Helvetica, sans-serif;
+padding: 20px;
+letter-spacing: 1px;
+line-height: 20px;
+text-align: justify;
 }
 .images{
 margin-left: 20px;
@@ -54,11 +54,27 @@ margin-right: 20px;
 width: 280px;
 }
 .home-buton {
-  margin-left: 21px;
-  margin-top: 21px;
+margin-left: 21px;
 }
 
 .img-home {
-  width: 21px;
-  margin-top: 21px; 
+width: 21px;
+margin-top: 15px;
+border-radius: 30%;
+}
+.teaser {
+font-family: Montserrat;
+text-transform: uppercase;
+font-weight: bold;  
+margin-left: 20px;
+text-decoration: underline;
+color: black;
+}
+.lafayette {
+text-decoration: none;
+color: rgb(47, 47, 255);
+}
+
+.teaser:hover {
+background-color: rgb(255, 224, 87);
 }
