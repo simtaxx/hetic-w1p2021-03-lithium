@@ -7,14 +7,12 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-header{
-  
-  position:fixed;
-}
+
 .home-buton {
   margin-left: 21px;
   margin-top: 21px;
 }
+
 .img-home {
   width: 21px;
   margin-top: 21px; 
@@ -33,12 +31,14 @@ summary {
   margin-left: 35px;
 }
 .baguette-1-a {
-  width: 320px;
+  width: 250px;
 }
 .contents-article {
   font-size: 16px;
   font-family: Montserrat,Arial, Helvetica, sans-serif;
   padding: 10px;
+  letter-spacing: 3px;
+  line-height: 20px;
 }
 .details {
   font-family: Lancelot;

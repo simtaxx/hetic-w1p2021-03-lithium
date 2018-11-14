@@ -5,28 +5,25 @@
 
 @keyframes up-and-down{
   from{
+
     transform: translateY(-10px);
-
   }
-
   to{
     transform: translateY(10px);
   }
 }
-
 * { 
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-body{
+body {
   scroll-behavior: smooth;
   font-family: Roboto, Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
 }
 
-
-
 /*header */ 
+
 .headerindex {
   display: flex;
   width: 100%;
@@ -72,30 +69,25 @@ h1 {
 }
 /* header fin */ 
 
-img{
+img {
   transition: transform 2s;
 }
 
-img:hover{
+img:hover {
   transform: scale(1.05);
 }
-
 
 /* body */ 
 p {
   margin-left: 20px;
   margin-right:20px;
 }
-
-
-
 .item{
   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
 
 }
-
-
-
 .item p {
   text-align: center;
   font-family: Lancelot;
@@ -115,19 +107,9 @@ h2 {
   margin-top: 20px;
 }
 
-.baguette1 {
+.baguette {
+  justify-content: center;
   width: 250px;
-  height: 170px;
-}
-
-.baguette2 {
-  width: 250px;
-  height: 170px;
-}
-
-.baguette3 {
-  width: 250px;
-  height: 170px;
 }
 
 .bag-plus {
@@ -156,13 +138,13 @@ h2 {
 }
 
 .Une {
- font-family: Montserrat;
- text-transform: uppercase;
- font-size: 20px;
- font-weight: 700;
- color: white;
- text-align: center;
- padding: 40px;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  padding: 40px;
 }
 
 .photofooter {
@@ -215,7 +197,7 @@ h2 {
   transition: transform .2s;
 }
 
-.follow{
+.follow {
   text-align: center;
   color: white;
   font-family: Roboto;
@@ -248,18 +230,18 @@ h2 {
   transition: transform .2s;
 }
 .twitter:hover {
- transform: scale(2);
+  transform: scale(2);
 }
 .facebook:hover {
- transform: scale(2);
+  transform: scale(2);
 }
 
 .instagram:hover {
- transform: scale(2);
+  transform: scale(2);
 }
 .hat:hover {
   transform: scale(2);
- }
+}
 .details {
   font-family: Lancelot;
   font-size: 16px;
