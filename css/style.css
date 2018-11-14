@@ -15,11 +15,7 @@
   box-sizing: border-box;
 }
 
-body {
-  scroll-behavior: smooth;
-  font-family: Roboto, Arial, Helvetica, sans-serif;
-  letter-spacing: 1px;
-}
+
 
 /*header */ 
 
@@ -72,6 +68,14 @@ h1 {
 
 /* body */
 
+body {
+  
+  scroll-behavior: smooth;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  
+}
+
 .h2-body{
   text-align: center;
   font-family: montserrat;
@@ -83,6 +87,7 @@ h1 {
 
 .container{
   display : block;
+  
 }
 
 p {
@@ -137,6 +142,7 @@ h2 {
   margin-top: 21px;
 }
 
+
 /* body fin */
 
 
@@ -167,13 +173,7 @@ h2 {
   align-items: center;
 }
 
-.fantastic {
-  height: 140px;
-  width: 260px;
-  
-}
-
-.netflix {
+.cover {
   height: 140px;
   width: 260px;
   
@@ -297,8 +297,9 @@ h2 {
     height: 381px;
   }
 
-  .
+  
 
 
 
 
+}
