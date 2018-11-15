@@ -5,18 +5,16 @@
 
 @keyframes up-and-down{
   from{
-    transform: translateY(-10px);
+    transform: translateY(-20px);
   }
   to{
-    transform: translateY(10px);
+    transform: translateY(0px);
   }
 }
 
 * { 
   box-sizing: border-box;
 }
-
-
 
 /*header */ 
 
@@ -75,6 +73,7 @@ body {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
   
+  
 }
 
 .h2-body{
@@ -88,7 +87,7 @@ body {
 
 .container{
   display : block;
-  
+  transition: opacity 0.5;
 }
 
 p {
@@ -130,7 +129,7 @@ h2 {
   height: 170px;
 }
 
-.bag-plus {
+.about {
   
   text-decoration: none;
   color: #0074C8;
@@ -141,6 +140,10 @@ h2 {
   height: 21px;
   margin-left: 21px;
   margin-top: 21px;
+}
+
+.is-reached{
+  opacity: 1;
 }
 
 
@@ -297,4 +300,4 @@ h2 {
     width: 640px;
     height: 381px;
   }
-}
+
