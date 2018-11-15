@@ -171,6 +171,12 @@ h2 {
     top: 400;
     width: 200;
   }
+  .line-cara-1a {
+    position: absolute;
+    left: 782;
+    top: 600;
+    width: 650;
+  }
   .details {
     position: absolute;
     left: 20;
@@ -247,16 +253,17 @@ h2 {
   }
   .line-cara-1 {
     position: absolute;
-    right: 20;
-    top: 600;
-    width: 590;
+    left: 782;
+    top: 500;
+    width: 650;
   }
   .details {
     position: absolute;
-    left: 730;
-    top: 800;
+    left: 760;
+    top: 700;
   }
   .text-details {
     width: 570px;
+    line-height: 30px;
   }
 }
