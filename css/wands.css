@@ -41,6 +41,7 @@ h2 {
   font-family: 'Lancelot';
   width: 80%;
   margin-left: 35px;
+  margin-top: 40px;
 }
 .article-2-bis {
   font-family: 'Lancelot';
@@ -85,7 +86,7 @@ h2 {
   line-height: 20px;
   text-align: justify;
 }
-.line-cara {
+.line-cara-1 {
   width: 236px;
   color: #C4C4C4;
 }
@@ -242,6 +243,7 @@ h2 {
   }
   .article-2-bis {
     width: 600px;
+    margin-right: 30px;
   }
   .article-3-bis {
     width: 600px;
@@ -254,14 +256,14 @@ h2 {
   }
   .line-cara-1 {
     position: absolute;
-    left: 782;
-    top: 500;
-    width: 650;
+    left: 816px;
+    top: 450px;
+    width: 585px;
   }
   .details {
     position: absolute;
-    left: 760;
-    top: 700;
+    left: 790;
+    top: 640;
   }
   .text-details {
     width: 570px;
