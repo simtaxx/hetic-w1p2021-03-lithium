@@ -232,33 +232,35 @@ summary::-webkit-details-marker {
     margin-left: 15px;
     transition: transform 0.2s;
   }
-  .title-article{
-    margin-top: 100px;
+  .title-article {
+    margin-top: -100px;
   }
   .article-1-bis {
-    margin-top:80px;
+    margin-top: -100px;
   }
   .baguette-1-a {
     width: 600px;
   }
   .article-x {
     position: absolute;
-    top: 200;
+    top: 50;
     right: 10;
-    display: flex;
-    flex-direction: column;
   }
   .article-2-bis {
     width: 600px;
+    margin-top: 40px;
   }
   .article-3-bis {
     width: 600px;
+    margin-top: 10px;
   }
   .article-4-bis {
     width: 600px;
+    margin-top: -40px;
   }
   .article-5-bis {
     width: 600px;
+    margin-top: -90px;
   }
   .details {
     margin-left: 1150px;
