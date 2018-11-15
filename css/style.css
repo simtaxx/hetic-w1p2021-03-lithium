@@ -1,7 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Lancelot');
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-
+@font-face{
+  font-family: 'Lancelot';
+  src:  url(../font/Lancelot/lancelot-v7-latin-regular.woff) format('woff'),url(../font/Lancelot/lancelot-v7-latin-regular.woff2) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'Montserrat';
+  src:  url(../font/Montserrat/montserrat-v12-latin-regular.woff) format('woff'),url(../font/Montserrat/montserrat-v12-latin-regular.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @keyframes up-and-down{
   from{
@@ -31,7 +39,7 @@
 }
 
 h1 {
-  font-family: Lancelot;
+  font-family: 'Lancelot';
   padding: 2px;
   color: white;
   font-size: 24px;
@@ -39,7 +47,7 @@ h1 {
 
 .title {
   background-color: #FBCB04;
-  font-family: Lancelot;
+  font-family: 'Lancelot';
   padding: 2px;
   width: 78px;
 }
@@ -78,7 +86,7 @@ body {
 
 .h2-body{
   text-align: center;
-  font-family: Montserrat;
+  font-family: 'Montserrat';
   font-weight: bold;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -107,11 +115,11 @@ p {
 
 .item p {
   text-align: center;
-  font-family: Lancelot;
+  font-family: 'Lancelot';
 }
 
 h2 {
-  font-family: Lancelot;
+  font-family: 'Lancelot';
   padding: 2px;
   color: black;
   font-size: 24px;
@@ -162,7 +170,7 @@ h2 {
 }
 
 .nyc {
-  font-family: Montserrat;
+  font-family: 'Montserrat';
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 700;
@@ -244,7 +252,7 @@ h2 {
   transform: scale(2);
 }
 .details {
-  font-family: Lancelot;
+  font-family: 'Lancelot';
   font-size: 16px;
 }
 .text-details {
