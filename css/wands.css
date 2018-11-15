@@ -109,7 +109,7 @@ summary::-webkit-details-marker {
   min-height: 5vh;
 }
 
-.icones-bis {
+.icones {
   display: flex;
   justify-content: space-around;
 }
