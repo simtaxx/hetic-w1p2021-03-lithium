@@ -87,7 +87,8 @@ body {
 
 .container{
   display : block;
-  transition: opacity 0.5;
+  opacity: 0;
+  transition: opacity 3s;
 }
 
 p {
@@ -276,8 +277,13 @@ h2 {
   }
   
   .container{
+    opacity:0;
     display:flex;
     justify-content: space-around;
+    transition: opacity  2s;
+  }
+  .is-reached{
+    opacity: 1;
   }
 
   .container-article{
