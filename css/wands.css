@@ -95,7 +95,7 @@ h2 {
 .footer-article-1 {
   background-color:#231322;
   width: 100%;
-  min-height: 5vh;
+  height: auto;
 }
 .icones {
   display: flex;
