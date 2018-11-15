@@ -5,12 +5,14 @@
 *{
 box-sizing: border-box;
 }
-h1{
+h1 { 
 font-family: Lancelot;
 text-transform: uppercase;
 margin-top: 20px;
 text-align: center;
 margin-bottom: 40px;
+font-size: 35px;
+font-weight: bold;
 }
 .animals {
 margin-left: 20px;
@@ -25,7 +27,7 @@ min-height: 9vh;
 width: 100vw;
 }
   
-.icones-bis {
+.icones {
 display: flex;
 justify-content: space-around;
 }
@@ -48,7 +50,7 @@ letter-spacing: 1px;
 line-height: 20px;
 text-align: justify;
 }
-.images{
+.images {
 margin-left: 20px;
 margin-right: 20px;
 width: 280px;
@@ -77,4 +79,45 @@ color: rgb(47, 47, 255);
 
 .teaser:hover {
 background-color: rgb(255, 224, 87);
+}
+
+@media (min-width: 768px)
+{
+.text {
+  text-align: center;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+.first {
+  display: flex;
+  flex-direction: row;
+}
+.second {
+  display: flex;
+  flex-direction: row;
+}
+.third {
+  display: flex;
+  flex-direction: row; 
+}
+.fourth {
+  display: flex;
+  flex-direction: row; 
+}
+.animals {
+  height: 150px;
+  width: 300px;
+}
+.images {
+  height: 150px;
+  width: 300px;
+}
+.all-articles {
+  background-color: white;
+  box-shadow: 0px 10px 40px black;
+  padding: 60px;
+  border-radius: 40px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
 }

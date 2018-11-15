@@ -40,8 +40,29 @@ summary::-webkit-details-marker {
   text-align: center;
   margin-top: 40px;
   font-size: 22px;
+  font-family: Lancelot;
 }
 .article-1-bis {
+  font-family: Lancelot;
+  width: 80%;
+  margin-left: 35px;
+}
+.article-2-bis {
+  font-family: Lancelot;
+  width: 80%;
+  margin-left: 35px;
+}
+.article-3-bis {
+  font-family: Lancelot;
+  width: 80%;
+  margin-left: 35px;
+}
+.article-4-bis {
+  font-family: Lancelot;
+  width: 80%;
+  margin-left: 35px;
+}
+.article-5-bis {
   font-family: Lancelot;
   width: 80%;
   margin-left: 35px;
@@ -88,7 +109,7 @@ summary::-webkit-details-marker {
   min-height: 5vh;
 }
 
-.icones-bis {
+.icones {
   display: flex;
   justify-content: space-around;
 }
@@ -103,4 +124,78 @@ summary::-webkit-details-marker {
 
 .instagram-bis {
   width: 40px;
+}
+
+
+@media (min-width: 768px) {
+  .home-buton {
+    position: absolute;
+    left: 40px;
+    top: 0px;
+  }
+  .img-home {
+    width: 50px;
+    height: 43.28px;
+    margin-top: 21px; 
+  }
+  body {
+    display: flex;
+    width: 100%;
+    height: 100vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .article-1-bis {
+    margin-right: 200px;
+  }
+  .baguette-1-a {
+    width: 300px;
+  }
+  .article-2-bis {
+    position: absolute;
+    top: 115;
+    right: 20;
+    width: 350px;
+  }
+  .article-3-bis {
+    position: absolute;
+    top: 230;
+    right: 20;
+    width: 350px;
+  }
+  .article-4-bis {
+    position: absolute;
+    top: 380;
+    right: 20;
+    width: 350px;
+  }
+  .article-5-bis {
+    position: absolute;
+    top: 530;
+    right: 20;
+    width: 350px;
+  }
+  .title-article {
+    margin: 0 auto;
+  }
+  summary {
+    margin-right: 570px;
+    margin-bottom: 200px;
+  }
+  .text-details {
+    width: 290px;
+    padding: 30px;
+  }
+  .plus-icon {
+    position: absolute;
+    right: -100;
+  }
+  .glass-icon {
+    position: absolute;
+    left: -50;
+  }
+  .line-cara {
+    margin-left: 10px;
+    width: 300px;
+  }
 }
