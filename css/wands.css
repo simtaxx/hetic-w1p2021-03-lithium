@@ -110,10 +110,16 @@ h2 {
   width: 40px;
 }
 @media (min-width: 768px) {
+  body {
+    display: flex;
+    width: 100%;
+    height: 100vw;
+    justify-content: space-between;
+    align-items: center;
+  }
   .home-buton {
     position: absolute;
-    left: 0px;
-    top: -10px;
+    left: 30px;
   }
   .img-home {
     width: 40px;
@@ -124,42 +130,54 @@ h2 {
   .img-home:hover {
     transform: scale(1.1);
   }
-  body {
+  h2 {
+    font-family: 'Lancelot';
+    font-size: 24px;
+    position: absolute;
+    top: 80;
+    left: 80;
+  }
+  .contents {
     display: flex;
     width: 100%;
-    height: 100vw;
-    justify-content: space-between;
-    align-items: center;
+    height: 100vh;
   }
   .article-1-bis {
-    margin-right: 200px;
+    justify-content: center;
+    margin-top: 100px;
   }
   .baguette-1-a {
     width: 300px;
   }
+  .article-x {
+    flex-direction: column;
+    margin-top: 80px;
+  }
   .article-2-bis {
-    position: absolute;
-    top: 115;
-    right: 20;
-    width: 350px;
+    width: 400px;
   }
   .article-3-bis {
-    position: absolute;
-    top: 230;
-    right: 20;
-    width: 350px;
+    width: 400px;
   }
   .article-4-bis {
-    position: absolute;
-    top: 380;
-    right: 20;
-    width: 350px;
+    width: 400px;
   }
   .article-5-bis {
+    width: 400px;
+  }
+  .line-cara-1 {
     position: absolute;
-    top: 530;
-    right: 20;
-    width: 350px;
+    left: 90;
+    top: 400;
+    width: 200;
+  }
+  .details {
+    position: absolute;
+    left: 20;
+    top: 600;
+  }
+  .text-details {
+    width: 570px;
   }
   .title-article {
     margin: 0 auto;
@@ -186,16 +204,6 @@ h2 {
   .glass-icon {
     position: absolute;
     left: -50;
-  }
-  .line-cara-1 {
-    margin-left: 10px;
-    margin-bottom: 100px;
-    width: 300px;
-  }
-  .line-cara-2 {
-    margin-left: 10px;
-    margin-top: -77px;
-    width: 300px;
   }
 }
 @media (min-width: 1366px) {
