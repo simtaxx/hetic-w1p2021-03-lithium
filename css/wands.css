@@ -1,28 +1,12 @@
-@font-face{
-  font-family: 'Lancelot';
-  src:  url(../font/Lancelot/lancelot-v7-latin-regular.woff) format('woff'),url(../font/Lancelot/lancelot-v7-latin-regular.woff2) format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face{
-  font-family: 'Montserrat';
-  src:  url(../font/Montserrat/montserrat-v12-latin-regular.woff) format('woff'),url(../font/Montserrat/montserrat-v12-latin-regular.woff2) format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 .home-buton {
   margin-left: 21px;
   margin-top: 21px;
 }
-
 .img-home {
   width: 21px;
   margin-top: 21px; 
@@ -104,13 +88,6 @@ summary::-webkit-details-marker {
   width: 236px;
   color: #C4C4C4;
 }
-
-
-
-
-
-
-
 /* footer wand1 */ 
 
 .footer-article-1 {
@@ -118,25 +95,19 @@ summary::-webkit-details-marker {
   width: 100%;
   min-height: 5vh;
 }
-
 .icones {
   display: flex;
   justify-content: space-around;
 }
-
 .twitter-bis {
   width: 40px;
 }
-
 .facebook-bis {
   width: 40px;
 }
-
 .instagram-bis {
   width: 40px;
 }
-
-
 @media (min-width: 768px) {
   .home-buton {
     position: absolute;
@@ -227,64 +198,56 @@ summary::-webkit-details-marker {
   }
 }
 @media (min-width: 1366px) {
+  body {
+    height: 900px;
+  }
   .home-buton {
+    margin-top: 15px;
+  }
+  h2 {
+    font-family: 'Lancelot';
+    font-size: 24px;
     position: absolute;
-    left: 0px;
-    top: -10px;
+    top: 80;
   }
-  .img-home {
-    width: 40px;
-    height: 36px;
-    margin-top: 15px; 
-    margin-left: 15px;
-    transition: transform 0.2s;
-  }
-  .title-article {
-    margin-top: -325px;
+  .contents {
+    display: flex;
+    width: 100%;
+    height: 100vh;
   }
   .article-1-bis {
-    margin-top: -490px;
+    justify-content: center;
   }
   .baguette-1-a {
-    width: 500px;
+    width: 550px;
   }
   .article-x {
-    position: absolute;
-    top: 50;
-    right: 10;
+    flex-direction: column;
   }
   .article-2-bis {
     width: 600px;
-    margin-top: 40px;
   }
   .article-3-bis {
     width: 600px;
-    margin-top: 10px;
   }
   .article-4-bis {
     width: 600px;
-    margin-top: -40px;
   }
   .article-5-bis {
     width: 600px;
-    margin-top: -90px;
-  }
-  .details {
-    margin-left: 1150px;
-    width: 250;
-  }
-  summary {
-    opacity: 0.6;
-    transition: opacity 0.5s ;
-  }
-  summary:hover {
-    opacity: 1;
-  }
-  .text-details {
-    width: 600px;
-    margin-left: -160px;
   }
   .line-cara-1 {
-    width: 600px;
+    position: absolute;
+    right: 20;
+    top: 600;
+    width: 590;
+  }
+  .details {
+    position: absolute;
+    left: 730;
+    top: 800;
+  }
+  .text-details {
+    width: 570px;
   }
 }
