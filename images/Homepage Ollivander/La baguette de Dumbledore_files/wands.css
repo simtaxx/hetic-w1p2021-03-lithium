@@ -1,16 +1,6 @@
-@font-face{
-  font-family: 'Lancelot';
-  src:  url(../font/Lancelot/lancelot-v7-latin-regular.woff) format('woff'),url(../font/Lancelot/lancelot-v7-latin-regular.woff2) format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face{
-  font-family: 'Montserrat';
-  src:  url(../font/Montserrat/montserrat-v12-latin-regular.woff) format('woff'),url(../font/Montserrat/montserrat-v12-latin-regular.woff2) format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css?family=Lancelot');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
   display: flex;
@@ -50,30 +40,30 @@ summary::-webkit-details-marker {
   text-align: center;
   margin-top: 40px;
   font-size: 22px;
-  font-family: 'Lancelot';
+  font-family: Lancelot;
 }
 .article-1-bis {
-  font-family: 'Lancelot';
+  font-family: Lancelot;
   width: 80%;
   margin-left: 35px;
 }
 .article-2-bis {
-  font-family: 'Lancelot';
+  font-family: Lancelot;
   width: 80%;
   margin-left: 35px;
 }
 .article-3-bis {
-  font-family: 'Lancelot';
+  font-family: Lancelot;
   width: 80%;
   margin-left: 35px;
 }
 .article-4-bis {
-  font-family: 'Lancelot';
+  font-family: Lancelot;
   width: 80%;
   margin-left: 35px;
 }
 .article-5-bis {
-  font-family: 'Lancelot';
+  font-family: Lancelot;
   width: 80%;
   margin-left: 35px;
 }
@@ -82,19 +72,19 @@ summary::-webkit-details-marker {
 }
 .contents-article {
   font-size: 14px;
-  font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+  font-family: Montserrat,Arial, Helvetica, sans-serif;
   padding: 7px;
   letter-spacing: 1px;
   line-height: 20px;
   text-align: justify;
 }
 .details {
-  font-family: 'Lancelot';
+  font-family: Lancelot;
   font-size: 20px;
 }
 .text-details {
   font-size: 14px;
-  font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+  font-family: Montserrat,Arial, Helvetica, sans-serif;
   padding: 45px;
   letter-spacing: 1px;
   line-height: 20px;
@@ -119,7 +109,7 @@ summary::-webkit-details-marker {
   min-height: 5vh;
 }
 
-.icones {
+.icones-bis {
   display: flex;
   justify-content: space-around;
 }
@@ -140,17 +130,13 @@ summary::-webkit-details-marker {
 @media (min-width: 768px) {
   .home-buton {
     position: absolute;
-    left: 0px;
-    top: -10px;
+    left: 40px;
+    top: 0px;
   }
   .img-home {
-    width: 40px;
-    height: 36px;
-    margin-top: 15px; 
-    transition: transform 0.2s;
-  }
-  .img-home:hover {
-    transform: scale(1.1);
+    width: 50px;
+    height: 43.28px;
+    margin-top: 21px; 
   }
   body {
     display: flex;
@@ -192,23 +178,17 @@ summary::-webkit-details-marker {
   .title-article {
     margin: 0 auto;
   }
-  .details {
-    margin-right: 555px;
-    width: 250;
-  }
   summary {
-    opacity: 0.6;
-    transition: opacity 0.5s ;
-  }
-  summary:hover {
-    opacity: 1;
+    margin-right: 570px;
+    margin-bottom: 200px;
   }
   .text-details {
-    width: 285px;
+    width: 290px;
+    padding: 30px;
   }
   .plus-icon {
     position: absolute;
-    right: -80;
+    right: -100;
   }
   .glass-icon {
     position: absolute;
@@ -217,68 +197,5 @@ summary::-webkit-details-marker {
   .line-cara {
     margin-left: 10px;
     width: 300px;
-  }
-}
-@media (min-width: 1366px) {
-  .home-buton {
-    position: absolute;
-    left: 0px;
-    top: -10px;
-  }
-  .img-home {
-    width: 40px;
-    height: 36px;
-    margin-top: 15px; 
-    margin-left: 15px;
-    transition: transform 0.2s;
-  }
-  .title-article {
-    margin-top: -100px;
-  }
-  .article-1-bis {
-    margin-top: -100px;
-  }
-  .baguette-1-a {
-    width: 600px;
-  }
-  .article-x {
-    position: absolute;
-    top: 50;
-    right: 10;
-  }
-  .article-2-bis {
-    width: 600px;
-    margin-top: 40px;
-  }
-  .article-3-bis {
-    width: 600px;
-    margin-top: 10px;
-  }
-  .article-4-bis {
-    width: 600px;
-    margin-top: -40px;
-  }
-  .article-5-bis {
-    width: 600px;
-    margin-top: -90px;
-  }
-  .details {
-    margin-left: 1150px;
-    width: 250;
-  }
-  summary {
-    opacity: 0.6;
-    transition: opacity 0.5s ;
-  }
-  summary:hover {
-    opacity: 1;
-  }
-  .text-details {
-    width: 600px;
-    margin-left: -160px;
-  }
-  .line-cara {
-    margin-left: 740px;
-    width: 600px;
   }
 }
