@@ -1,12 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Lancelot');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@font-face{
+  font-family: 'Lancelot';
+  src:  url(../font/Lancelot/lancelot-v7-latin-regular.woff) format('woff'),url(../font/Lancelot/lancelot-v7-latin-regular.woff2) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Montserrat';
+  src:  url(../font/Montserrat/montserrat-v12-latin-regular.woff) format('woff'),url(../font/Montserrat/montserrat-v12-latin-regular.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 *{
 box-sizing: border-box;
 }
 h1 { 
-font-family: Lancelot;
+font-family: 'Lancelot';
 text-transform: uppercase;
 margin-top: 20px;
 text-align: center;
@@ -44,7 +55,7 @@ width: 40px;
 }
 .text {
 font-size: 14px;
-font-family: Montserrat,Arial, Helvetica, sans-serif;
+font-family: 'Montserrat',Arial, Helvetica, sans-serif;
 padding: 20px;
 letter-spacing: 1px;
 line-height: 20px;
@@ -65,7 +76,7 @@ margin-top: 15px;
 border-radius: 30%;
 }
 .teaser {
-font-family: Montserrat;
+font-family: 'Montserrat';
 text-transform: uppercase;
 font-weight: bold;  
 margin-left: 20px;
