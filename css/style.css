@@ -314,4 +314,8 @@ h2 {
     height: 381px;
   }
 
+  .teaser{
+    align-items: right;
+  }
+
 }
