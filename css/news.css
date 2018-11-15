@@ -120,8 +120,7 @@ background-color: rgb(255, 224, 87);
   width: 300px;
 }
 .images {
-  height: 150px;
-  width: 300px;
+  display: none;
 }
 .all-articles {
   background-color: white;
