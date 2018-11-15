@@ -24,6 +24,8 @@
   box-sizing: border-box;
 }
 
+
+
 /*header */ 
 
 .header-index {
@@ -142,6 +144,11 @@ h2 {
   text-decoration: none;
   color: #0074C8;
   text-align: center;
+  
+}
+
+.about:hover{
+  text-decoration: underline;
 }
 
 .img-home {
@@ -189,20 +196,21 @@ h2 {
 .icones {
   display: flex;
   justify-content: center; 
+  margin-top: 40px;
 }
 
 .twitter {
-  width: 20px;
+  width: 60px;
   transition: transform .2s;
 }
 
 .facebook {
-  width: 20px;
+  width: 60px;
   transition: transform .2s;
 }
 
 .instagram {
-  width: 20px;
+  width: 60px;
   transition: transform .2s;
 }
 
@@ -234,7 +242,8 @@ h2 {
 }
 
 .hat{
-  width: 20px;
+  margin-top: 25px;
+  width: 60px;
   margin-bottom: 50px;
   transition: transform .2s;
 }
@@ -310,8 +319,66 @@ h2 {
   }
 
   .cover-article {
+    width: 330px;
+    height: 210px;
+  }
+
+  .teaser{
+    align-items: right;
+  }
+
+}
+
+@media (min-width:1440px){
+  
+  .header-index{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/Homepage Ollivander/Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-index h1{
+    font-size: 64px;
+  }
+
+  .title{
+    font-size: 64px;
+  }
+  
+  .container{
+    opacity:0;
+    display:flex;
+    justify-content: space-around;
+    transition: opacity  2s;
+  }
+  .is-reached{
+    opacity: 1;
+  }
+
+  .container-article{
+    display:flex;
+    justify-content:space-around;
+  }
+  .une{
+    font-size: 30px;
+  }
+  img {
+    transition: transform 1s;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+  }
+
+  .cover-article {
     width: 640px;
-    height: 381px;
+    height: 380px;
   }
 
   .teaser{

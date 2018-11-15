@@ -14,87 +14,86 @@
 
 
 *{
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 h1 { 
-font-family: 'Lancelot';
-text-transform: uppercase;
-margin-top: 20px;
-text-align: center;
-margin-bottom: 40px;
-font-size: 35px;
-font-weight: bold;
+  font-family: 'Lancelot';
+  text-transform: uppercase;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 35px;
+  font-weight: bold;
 }
 .animals {
-margin-left: 20px;
-margin-right: 20px;
-width: 280px;
-margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 280px;
+  margin-bottom: 30px;
 }
 .footer-article-1 {
-background-color:#231322;
-width: 100%;
-min-height: 9vh;
-width: 100vw;
+  background-color:#231322;
+  width: 100%;
+  min-height: 9vh;
+  width: 100vw;
 }
   
 .icones {
-display: flex;
-justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
   
 .twitter-bis {
-width: 40px;
+  width: 40px;
 }
   
 .facebook-bis {
-width: 40px;
+  width: 40px;
 }
 .instagram-bis {
-width: 40px;
+  width: 40px;
 }
 .text {
-font-size: 14px;
-font-family: 'Montserrat',Arial, Helvetica, sans-serif;
-padding: 20px;
-letter-spacing: 1px;
-line-height: 20px;
-text-align: justify;
+  font-size: 14px;
+  font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+  padding: 20px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-align: justify;
 }
 .images {
-margin-left: 20px;
-margin-right: 20px;
-width: 280px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 280px;
 }
 .kid {
-margin-left: 20px;
-margin-right: 20px;
-width: 280px;
+  margin: 0px 20px 20px 20px;
+  width: 280px;
 }
 .home-buton {
-margin-left: 21px;
+  margin-left: 21px;
 }
 
 .img-home {
-width: 21px;
-margin-top: 15px;
-border-radius: 30%;
+  width: 21px;
+  margin-top: 15px;
+  border-radius: 30%;
 }
 .teaser {
-font-family: 'Montserrat';
-text-transform: uppercase;
-font-weight: bold;  
-margin-left: 20px;
-text-decoration: underline;
-color: black;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-weight: bold;  
+  margin-left: 20px;
+  text-decoration: underline;
+  color: black;
 }
 .lafayette {
-text-decoration: none;
-color: rgb(47, 47, 255);
+  text-decoration: none;
+  color: rgb(47, 47, 255);
 }
 
 .teaser:hover {
-background-color: rgb(255, 224, 87);
+  background-color: rgb(255, 224, 87);
 }
 
 @media (min-width: 768px){
