@@ -55,6 +55,11 @@ margin-left: 20px;
 margin-right: 20px;
 width: 280px;
 }
+.kid {
+margin-left: 20px;
+margin-right: 20px;
+width: 280px;
+}
 .home-buton {
 margin-left: 21px;
 }
@@ -83,41 +88,16 @@ background-color: rgb(255, 224, 87);
 
 @media (min-width: 768px)
 {
-.text {
-  text-align: center;
-  padding-right: 200px;
-  padding-left: 200px;
-}
-.first {
-  display: flex;
-  flex-direction: row;
-}
-.second {
-  display: flex;
-  flex-direction: row;
-}
-.third {
-  display: flex;
-  flex-direction: row; 
-}
-.fourth {
-  display: flex;
-  flex-direction: row; 
-}
+
 .animals {
-  height: 150px;
+  height: 300px;
   width: 300px;
+}
+.animals, .text {
+  display: flex;
+  flex-direction: row;
 }
 .images {
-  height: 150px;
-  width: 300px;
-}
-.all-articles {
-  background-color: white;
-  box-shadow: 0px 10px 40px black;
-  padding: 60px;
-  border-radius: 40px;
-  margin-right: 60px;
-  margin-left: 60px;
+  opacity: 0;
 }
 }
