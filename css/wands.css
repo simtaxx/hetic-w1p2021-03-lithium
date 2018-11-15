@@ -193,6 +193,7 @@ summary::-webkit-details-marker {
     margin: 0 auto;
   }
   .details {
+    margin-top: -175px;
     margin-right: 555px;
     width: 250;
   }
@@ -214,8 +215,14 @@ summary::-webkit-details-marker {
     position: absolute;
     left: -50;
   }
-  .line-cara {
+  .line-cara-1 {
     margin-left: 10px;
+    margin-bottom: 100px;
+    width: 300px;
+  }
+  .line-cara-2 {
+    margin-left: 10px;
+    margin-top: -77px;
     width: 300px;
   }
 }
@@ -233,13 +240,13 @@ summary::-webkit-details-marker {
     transition: transform 0.2s;
   }
   .title-article {
-    margin-top: -100px;
+    margin-top: -325px;
   }
   .article-1-bis {
-    margin-top: -100px;
+    margin-top: -490px;
   }
   .baguette-1-a {
-    width: 600px;
+    width: 500px;
   }
   .article-x {
     position: absolute;
@@ -277,8 +284,7 @@ summary::-webkit-details-marker {
     width: 600px;
     margin-left: -160px;
   }
-  .line-cara {
-    margin-left: 740px;
+  .line-cara-1 {
     width: 600px;
   }
 }
