@@ -97,21 +97,37 @@ color: rgb(47, 47, 255);
 background-color: rgb(255, 224, 87);
 }
 
-@media (min-width: 768px)
-{
+@media (min-width: 768px){
 
-.animals {
-  height: 300px;
-  width: 300px;
+
+  .animals {
+    height: 490px;
+    width: 734px;
+  }
+ 
+  .text{
+    padding: 0px 20px 20px 20px;
+  }
+    
+  .images {
+
+    display: none;
+  }
+
+  .container{
+    display:flex;
+    margin:auto;
+  }
+
+  .second p:first-child{
+    margin-top: 0;
+  }
+
+  .all-articles{
+    display:block;
+  }
+
+
+
+
 }
-.animals, .text {
-  display: flex;
-  flex-direction: row;
-}
-  
-.images {
-
-  display: none;
-}
-
-
