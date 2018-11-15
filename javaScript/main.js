@@ -1,8 +1,19 @@
-console.log(document.getElementById('container'))
+var ids = ['container', 'photo-footer'];
 
-var waypoint = new Waypoint({
-  element: document.getElementById('container'),
-  handler: function(direction) {
-    document.getElementById('container').classList.add('is-reached')
-  }
-})
+ids.forEach(function(id) {
+  var element = document.getElementById(id);
+  console.log('wesh');
+
+
+  var waypoint = new Waypoint({
+    element: element,
+    handler: function(direction) {
+      if(element.className =='is-reached'){
+        element.classList.remove('is-reached')
+      } else{
+        element.classList.add('is-reached')
+      }
+    },
+ offset : '90%'
+  });
+});
