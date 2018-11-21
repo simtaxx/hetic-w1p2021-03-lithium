@@ -35,12 +35,13 @@ h1 {
   background-color:#231322;
   width: 100%;
   min-height: 9vh;
-  width: 100vw;
 }
   
 .icones {
   display: flex;
   justify-content: space-around;
+  position: fixed;
+
 }
   
 .twitter-bis {

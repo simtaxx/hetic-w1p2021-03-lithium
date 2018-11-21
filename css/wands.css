@@ -139,8 +139,8 @@ h2 {
   }
   .contents {
     display: flex;
-    width: 100%;
-    height: 100vh;
+    width: 100vh;
+    height: 100%;
   }
   .article-1-bis {
     justify-content: center;
@@ -221,8 +221,8 @@ h2 {
   }
   .contents {
     display: flex;
-    width: 100%;
-    height: 100vh;
+    width: 100vh;
+    height: 100%;
   }
   .article-1-bis {
     justify-content: center;

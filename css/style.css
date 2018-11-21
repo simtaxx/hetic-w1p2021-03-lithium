@@ -81,9 +81,7 @@ body {
   
   scroll-behavior: smooth;
   font-family: Roboto, Arial, Helvetica, sans-serif;
-  letter-spacing: 1px;
-  
-  
+  letter-spacing: 1px; 
 }
 
 .h2-body{
@@ -187,7 +185,6 @@ h2 {
 }
 .cover-article {
   height: 140px;
-  ; 
 }
 .photo-footer{
   margin: 20px 5% 0 5%;
@@ -238,7 +235,7 @@ h2 {
 
 .icon2 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .hat{
